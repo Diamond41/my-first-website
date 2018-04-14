@@ -31,10 +31,14 @@ nav a:hover {
     color: #4a4a4f;
 }
 
+.row {
+  display: flex;
+}
+
 .card {
-    float: left;
-    width: 20%;
-    margin-left: 10%;
+float: left;
+width: 20%;
+margin-left: 10%;
 }
 
 .card a {
@@ -43,6 +47,7 @@ nav a:hover {
 
 img {
     width: 100%;
+    vertical-align: middle;
 }
 
 h1 {
